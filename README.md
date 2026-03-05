@@ -24,6 +24,7 @@ Run on MNIST with an 80/20 stratified split:
   - 7: 0.4435
   - 8: 0.6813
   - 9: 0.9173
+  
 Note: performance varies by digit due to pixel-distribution overlap; Gaussian assumptions per pixel are a rough fit for MNIST.
 
 ## How to Run
