@@ -10,6 +10,21 @@ Gaussian Naive Bayes classifier for MNIST digits. For each class, the model esti
 
 Uses log-probabilities for numerical stability.
 
+## Results
+Run on MNIST with an 80/20 stratified split:
+- Overall accuracy: **0.6339**
+- Per-class accuracy:
+  - 0: 0.8943
+  - 1: 0.9448
+  - 2: 0.4521
+  - 3: 0.5623
+  - 4: 0.3070
+  - 5: 0.1409
+  - 6: 0.9207
+  - 7: 0.4435
+  - 8: 0.6813
+  - 9: 0.9173
+  
 ## How to Run
 1. Install dependencies:
    ```bash
